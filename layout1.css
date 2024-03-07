@@ -1,0 +1,27 @@
+body * {
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+header {
+    height: 30px;
+    padding: 20px;
+}
+
+nav {
+    height: 30px;
+    padding: 20px;
+}
+
+main {
+    height: 100px;
+    padding: 75px;
+
+}
+
+footer {
+    height: 30px;
+    padding: 20px;
+}

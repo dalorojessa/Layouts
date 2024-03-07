@@ -1,0 +1,46 @@
+body * {
+    border: 2px solid black;
+    height: 150px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+header {
+    margin: 5px;
+    height: 20px;
+    padding: 10px;
+}
+
+nav {
+    margin: 5px;
+    height: 20px;
+    padding: 10px;
+}
+
+aside {
+    width: 935px;
+    height: 15vh;
+}
+
+.contentA{
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+
+.contentB{
+    margin-left: 2px;
+    margin-right: 5px;
+    float:right;
+}
+
+section {
+    display: inline-block;
+    border: none;
+}
+
+footer {
+    margin: 5px;
+    height: 20px;
+    padding: 10px;
+}
