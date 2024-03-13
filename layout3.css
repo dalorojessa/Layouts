@@ -1,0 +1,39 @@
+body {
+    margin: 5;
+    font-size: 2em;
+}
+
+header, nav, .contentA, main, .contentB, footer {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 700px;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+header, nav, footer {
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.contentA, .contentB {
+    flex: 1;
+    margin-bottom: 5px;
+}
+
+.contentA{
+    margin-right: 5px;
+}
+
+.contentB{
+    margin-left: 5px;
+}
