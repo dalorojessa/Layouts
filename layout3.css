@@ -1,39 +1,36 @@
 body {
-    margin: 5;
     font-size: 2em;
 }
 
-header, nav, .contentA, main, .contentB, footer {
+header, nav, footer {
     border: 2px solid black;
+    height: 10vh;
+    margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main{
-    width: 700px;
-    height: 300px;
-    margin-bottom: 5px;
+header {
+    margin-bottom: 10px;
 }
 
-header, nav, footer {
-    height: 60px;
-    margin-bottom: 5px;
-}
-
-.header-nav {
+.container {
     display: flex;
+    flex-direction: row;
 }
 
-.contentA, .contentB {
-    flex: 1;
-    margin-bottom: 5px;
+.container div{
+    border: 2px solid #000;
+    height: 70vh;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
 }
 
-.contentA{
-    margin-right: 5px;
-}
-
-.contentB{
-    margin-left: 5px;
+.container div:nth-child(2){
+    flex-grow: 2;
 }

@@ -1,27 +1,23 @@
-body * {
+header, nav, footer, .container div{
+    height: 10vh;
     border: 2px solid black;
     margin: 5px;
+    display: flex;
     text-align: center;
-    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
 }
 
-header {
-    height: 30px;
-    padding: 20px;
+header{
+    margin-bottom: 10px;
 }
 
-nav {
-    height: 30px;
-    padding: 20px;
+.container {
+    display: flex;
+    flex-direction: row;
 }
 
-main {
-    height: 100px;
-    padding: 75px;
-
-}
-
-footer {
-    height: 30px;
-    padding: 20px;
+.container div {
+    width: 100%;
+    height: 65vh;
 }
